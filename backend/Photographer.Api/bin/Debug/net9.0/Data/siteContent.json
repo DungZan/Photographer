@@ -1,0 +1,140 @@
+{
+  "hero": {
+    "name": "Phạm Tiến Dũng",
+    "headline": "Photographer & Developer",
+    "roles": ["Designer", "Developer", "Freelancer", "Photographer"],
+    "backgroundImage": "/assets/img/hero-bg.jpg",
+    "socialLinks": [
+      { "label": "Twitter", "url": "#", "icon": "bi-twitter-x" },
+      { "label": "Facebook", "url": "https://www.facebook.com/phamtiendung1984", "icon": "bi-facebook" },
+      { "label": "Instagram", "url": "https://www.instagram.com/hsndung/", "icon": "bi-instagram" },
+      { "label": "LinkedIn", "url": "#", "icon": "bi-linkedin" }
+    ]
+  },
+  "about": {
+    "title": "About",
+    "intro": "Là một lập trình viên, cũng là một thợ chụp ảnh bán chuyên hiện tại đang sinh sống và làm việc tại Hà Nội.",
+    "description": [
+      "Là một lập trình viên, tôi tìm thấy niềm vui trong việc xây dựng những thế giới ảo từ những dòng code.",
+      "Song song đó, đam mê nhiếp ảnh lại đưa tôi đến với thế giới thực, nơi tôi ghi lại những khoảnh khắc đẹp đẽ bằng ống kính.",
+      "Sự kết hợp giữa logic của lập trình và cảm xúc của nhiếp ảnh đã tạo nên một góc nhìn độc đáo, giúp tôi khám phá và sáng tạo không ngừng."
+    ],
+    "highlight": "Photographer & Developer",
+    "profileImage": "/assets/img/profile-img.jpg",
+    "details": [
+      { "label": "Tên", "value": "Phạm Tiến Dũng (RZ)" },
+      { "label": "Website", "value": "https://dungzan.github.io/Photographer/" },
+      { "label": "Số điện thoại", "value": "03*****813" },
+      { "label": "Thành phố", "value": "Cầu Giấy, Hà Nội, Việt Nam" },
+      { "label": "Tuổi", "value": "22" },
+      { "label": "Email", "value": "aceqcrush@gmail.com" }
+    ],
+    "closing": "Lĩnh vực chuyên môn của tôi là chụp ảnh chân dung cá nhân với phong cách tươi sáng, trong trẻo. Mặc dù chỉ là một thợ ảnh bán chuyên nhưng tôi luôn cố gắng tạo ra những bức ảnh đẹp nhất cho khách hàng."
+  },
+  "stats": [
+    { "label": "Khách hàng hài lòng", "value": 20, "icon": "bi-emoji-smile" },
+    { "label": "Dự án", "value": 7, "icon": "bi-journal-richtext" },
+    { "label": "Số giờ hỗ trợ", "value": 23, "icon": "bi-headset" },
+    { "label": "Bạn bè", "value": 2321, "icon": "bi-people" }
+  ],
+  "skills": [
+    { "name": "Photoshop", "value": 100 },
+    { "name": "Lightroom", "value": 90 },
+    { "name": "Kỹ năng giao tiếp", "value": 75 },
+    { "name": "Ánh sáng", "value": 80 },
+    { "name": "Hiểu về máy ảnh", "value": 90 },
+    { "name": "Marketing", "value": 55 }
+  ],
+  "resume": {
+    "intro": "Về bảng giá và quy trình làm việc các bạn có thể xem bên dưới, mọi thắc mắc hãy liên hệ Facebook hoặc Zalo của mình nhé.",
+    "summary": {
+      "name": "Phạm Tiến Dũng",
+      "role": "Nhiếp ảnh gia chuyên chụp chân dung",
+      "description": "Giá trung bình: 1-50 tỷ (tham khảo)",
+      "details": [
+        "Cầu Giấy, Hà Nội",
+        "03*****813",
+        "aceqcrush@gmail.com"
+      ]
+    },
+    "pricing": [
+      {
+        "title": "Chụp cá nhân",
+        "duration": "1 buổi",
+        "description": "Từ 3-4 tiếng chụp bằng Canon Rp và lens 50mm F1.8, 85mm F1.8, đèn flash, reflector, súng bắn bong bóng, đạo cụ hỗ trợ, đèn giả nắng",
+        "details": "Không bao gồm make up và trang phục, khách tự chuẩn bị",
+        "price": "1 tỷ / buổi"
+      },
+      {
+        "title": "Chụp ảnh nhóm",
+        "duration": "1 buổi",
+        "description": "3-4 tiếng cho một nhóm 4 người",
+        "details": "Không bao gồm make up và trang phục",
+        "price": "10 tỷ / 1 người"
+      }
+    ],
+    "process": [
+      {
+        "title": "Chụp cá nhân",
+        "duration": "3-4 tiếng",
+        "location": "Nội thành Hà Nội",
+        "bullets": [
+          "Gửi timeline và địa điểm trước 1-2 ngày",
+          "Hỗ trợ tạo dáng, đạo cụ, hắt sáng và bố cục",
+          "Xem ảnh trực tiếp trên máy để góp ý",
+          "Nhận toàn bộ ảnh gốc và 7-10 ảnh retouch",
+          "Trả ảnh gốc trong ngày, ảnh retouch sau 4-5 hôm"
+        ]
+      },
+      {
+        "title": "Chụp ảnh nhóm",
+        "duration": "3-4 tiếng",
+        "location": "Nội thành Hà Nội",
+        "bullets": [
+          "Chụp nhóm nhỏ 2 người, nhóm lớn 4 người và ảnh cá nhân",
+          "Đảm bảo mỗi bạn có ít nhất 2 ảnh cá nhân và 3 ảnh nhóm",
+          "Ảnh cá nhân sẽ nhiều hơn ảnh nhóm"
+        ]
+      }
+    ]
+  },
+  "portfolio": {
+    "intro": "Dưới đây là một số ảnh mình đã chụp cho khách hàng, người quen và sự kiện.",
+    "filters": [
+      { "label": "Tất cả", "value": "all" },
+      { "label": "Cá nhân", "value": "personal" },
+      { "label": "Tập thể", "value": "collective" },
+      { "label": "Khác", "value": "other" }
+    ],
+    "items": [
+      { "title": "Bé con", "description": "Ảnh chụp trẻ con", "image": "/assets/img/portrait/1.JPG", "category": "personal", "badge": "Ảnh gốc" },
+      { "title": "Chân dung cosplayer", "description": "fes ACT 13/10", "image": "/assets/img/portrait/9.JPG", "category": "personal", "badge": "Đã retouch" },
+      { "title": "Bạn cáo", "description": "Cos tướng trong LOL", "image": "/assets/img/portrait/11.JPG", "category": "other", "badge": "Đã retouch" },
+      { "title": "Chân dung", "description": "Ảnh chân dung tươi sáng", "image": "/assets/img/portrait/6.JPG", "category": "personal", "badge": "Ảnh gốc" },
+      { "title": "Công viên", "description": "Bạn nữ và buổi chiều ở công viên", "image": "/assets/img/portrait/7.JPG", "category": "personal", "badge": "Ảnh gốc" },
+      { "title": "Chị dẫn chương trình", "description": "Khoảnh khắc sân khấu", "image": "/assets/img/portrait/3.JPG", "category": "personal", "badge": "Ảnh gốc" },
+      { "title": "Anh bộ đội", "description": "Ngày ra trường", "image": "/assets/img/portrait/2.JPG", "category": "personal", "badge": "Ảnh gốc" },
+      { "title": "Chú rể", "description": "Tiệc cưới", "image": "/assets/img/portrait/12.JPG", "category": "personal", "badge": "Ảnh gốc" },
+      { "title": "Ảnh nhóm", "description": "Khoảnh khắc tập thể", "image": "/assets/img/collective/15.JPG", "category": "collective", "badge": "Ảnh gốc" },
+      { "title": "Đám cưới", "description": "Ảnh tập thể ngày cưới", "image": "/assets/img/collective/13.JPG", "category": "collective", "badge": "Ảnh gốc" },
+      { "title": "Ảnh nhóm", "description": "Bộ ảnh ngoại cảnh", "image": "/assets/img/collective/18.JPG", "category": "collective", "badge": "Ảnh gốc" },
+      { "title": "Cosplayer", "description": "Chân dung cos đầy màu sắc", "image": "/assets/img/portrait/8.JPG", "category": "other", "badge": "Đã retouch" }
+    ]
+  },
+  "services": [
+    {
+      "title": "Tạm thời chưa hoạt động",
+      "description": "Các dịch vụ bổ sung đang được cập nhật.",
+      "icon": "bi-activity",
+      "accent": "cyan"
+    }
+  ],
+  "contact": {
+    "intro": "Nếu cần sử dụng dịch vụ hãy liên hệ Facebook mình để được tư vấn.",
+    "items": [
+      { "label": "Địa chỉ", "value": "Cầu Giấy, Hà Nội", "icon": "bi-geo-alt", "type": "address" },
+      { "label": "Số điện thoại", "value": "03*****813", "icon": "bi-telephone", "type": "phone" },
+      { "label": "Email", "value": "aceqcrush@gmail.com", "icon": "bi-envelope", "type": "email" }
+    ]
+  }
+}
