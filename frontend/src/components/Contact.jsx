@@ -124,7 +124,7 @@ const Contact = ({ contact }) => {
           </div>
           <div>
             <p className="availability-panel__eyebrow">Lịch chụp</p>
-            <h3>Ngày trống & ngày đã kín</h3>
+            <h3>Ngày trống và ngày đã kín</h3>
             <p>Chọn ngày phù hợp nhất hoặc gửi tin nhắn để được ưu tiên giữ chỗ.</p>
           </div>
         </header>

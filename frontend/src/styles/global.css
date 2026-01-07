@@ -11,56 +11,72 @@
 }
 
 :root,
+/* --- OPTION 3: Creative Warmth (Orange/Amber) --- */
+
+:root,
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --bg: #020815;
-  --background-color: #020815;
-  --bg-soft: #050d1f;
-  --bg-panel: rgba(5, 12, 31, 0.88);
-  --bg-card: rgba(7, 16, 36, 0.92);
+  --bg: #1c1917; /* Đen nâu (Warm Black) */
+  --background-color: #1c1917;
+  --bg-soft: #292524;
+  --bg-panel: rgba(28, 25, 23, 0.88);
+  --bg-card: rgba(41, 37, 36, 0.8);
+  
   --border: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(82, 165, 255, 0.32);
-  --text: #f3f8ff;
-  --muted: rgba(211, 227, 255, 0.72);
-  --accent: #48c4ff;
-  --accent-strong: #1d8fff;
-  --accent-soft: rgba(72, 196, 255, 0.18);
+  --border-strong: rgba(249, 115, 22, 0.3);
+  
+  --text: #fafaf9;
+  --muted: #a8a29e;
+  
+  /* Màu nhấn: Cam cháy */
+  --accent: #fb923c;
+  --accent-strong: #f97316;
+  --accent-soft: rgba(251, 146, 60, 0.15);
+  
   --surface-tint: rgba(255, 255, 255, 0.04);
-  --surface-tint-strong: rgba(255, 255, 255, 0.07);
-  --shadow-soft: 0 24px 60px rgba(0, 0, 0, 0.55);
-  --glow-primary: rgba(72, 196, 255, 0.32);
-  --glow-secondary: rgba(64, 133, 255, 0.26);
-  --glow-tertiary: rgba(120, 40, 255, 0.16);
-  --grid-color: rgba(255, 255, 255, 0.08);
-  --hero-overlay-start: rgba(1, 7, 19, 0.92);
-  --hero-overlay-end: rgba(3, 18, 44, 0.6);
-  --hero-overlay-color: #030b1e;
+  --surface-tint-strong: rgba(255, 255, 255, 0.08);
+  --shadow-soft: 0 24px 60px rgba(0, 0, 0, 0.65);
+  
+  --glow-primary: rgba(249, 115, 22, 0.25);
+  --glow-secondary: rgba(234, 179, 8, 0.2); /* Vàng */
+  --glow-tertiary: rgba(239, 68, 68, 0.15); /* Đỏ */
+  
+  --grid-color: rgba(255, 255, 255, 0.06);
+  --hero-overlay-start: rgba(28, 25, 23, 0.95);
+  --hero-overlay-end: rgba(28, 25, 23, 0.6);
+  --hero-overlay-color: #1c1917;
 }
 
 :root[data-theme='light'] {
   color-scheme: light;
-  --bg: #f3f8ff;
-  --background-color: #f3f8ff;
-  --bg-soft: #e3efff;
+  --bg: #fffbf7; /* Màu kem rất nhạt */
+  --background-color: #fffbf7;
+  --bg-soft: #f5f5f4;
   --bg-panel: rgba(255, 255, 255, 0.95);
-  --bg-card: rgba(255, 255, 255, 0.98);
-  --border: rgba(8, 32, 78, 0.08);
-  --border-strong: rgba(8, 32, 78, 0.18);
-  --text: #0c1b36;
-  --muted: rgba(12, 27, 54, 0.65);
-  --accent: #1d9bf0;
-  --accent-strong: #2563eb;
-  --accent-soft: rgba(29, 155, 240, 0.15);
-  --surface-tint: rgba(9, 39, 92, 0.06);
-  --surface-tint-strong: rgba(9, 39, 92, 0.12);
-  --shadow-soft: 0 26px 60px rgba(15, 49, 94, 0.15);
-  --glow-primary: rgba(29, 155, 240, 0.2);
-  --glow-secondary: rgba(99, 102, 241, 0.15);
-  --glow-tertiary: rgba(255, 255, 255, 0.6);
-  --grid-color: rgba(13, 52, 110, 0.08);
-  --hero-overlay-start: rgba(243, 249, 255, 0.92);
-  --hero-overlay-end: rgba(224, 239, 255, 0.68);
-  --hero-overlay-color: #f1f7ff;
+  --bg-card: rgba(255, 255, 255, 0.9);
+  
+  --border: rgba(68, 64, 60, 0.08);
+  --border-strong: rgba(234, 88, 12, 0.2);
+  
+  --text: #292524; /* Nâu đen */
+  --muted: #78716c;
+  
+  --accent: #ea580c; /* Cam đậm */
+  --accent-strong: #c2410c;
+  --accent-soft: rgba(234, 88, 12, 0.1);
+  
+  --surface-tint: rgba(41, 37, 36, 0.03);
+  --surface-tint-strong: rgba(41, 37, 36, 0.05);
+  --shadow-soft: 0 24px 50px rgba(120, 53, 15, 0.08);
+  
+  --glow-primary: rgba(234, 88, 12, 0.15);
+  --glow-secondary: rgba(245, 158, 11, 0.15);
+  --glow-tertiary: rgba(236, 72, 153, 0.1);
+  
+  --grid-color: rgba(68, 64, 60, 0.05);
+  --hero-overlay-start: rgba(255, 251, 247, 0.92);
+  --hero-overlay-end: rgba(255, 251, 247, 0.7);
+  --hero-overlay-color: #fffbf7;
 }
 
 * {
@@ -159,7 +175,18 @@ h6 {
   position: sticky;
   top: 0;
   align-self: flex-start;
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  padding-bottom: 32px;
+  z-index: 5;
+}
+
+.sidebar-backdrop {
+  display: none;
 }
 
 .sidebar__kicker {
@@ -182,12 +209,30 @@ h6 {
 .sidebar nav a {
   display: flex;
   align-items: center;
+  
+  /* ĐIỀU CHỈNH: Nền trong suốt (0.05 là độ đậm 5%) và làm mờ hậu cảnh */
+  background-color: rgba(255, 255, 255, 0.05); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); /* Hỗ trợ Safari */
+
   gap: 12px;
   padding: 12px 16px;
   border-radius: 999px;
   color: var(--muted);
-  border: 1px solid transparent;
-  transition: border 0.25s ease, transform 0.25s ease, color 0.25s ease;
+  
+  /* ĐIỀU CHỈNH: Viền mỏng bán trong suốt để tạo khối nhẹ */
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+  
+  /* ĐIỀU CHỈNH: Hiệu ứng mượt hơn với cubic-bezier */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* KHUYẾN NGHỊ THÊM: Để hiệu ứng trong suốt thực sự đẹp khi di chuột */
+.sidebar nav a:hover {
+  background-color: rgba(255, 255, 255, 0.15); /* Sáng hơn khi hover */
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateX(4px); /* Trượt nhẹ sang phải thay vì phóng to */
+  color: #fff; /* Hoặc var(--text-main) */
 }
 
 .sidebar nav a:hover,
@@ -273,6 +318,13 @@ h6 {
   color: var(--text);
   display: none;
   z-index: 20;
+  box-shadow: var(--shadow-soft);
+  cursor: pointer;
+}
+
+.nav-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .app-main {
@@ -841,8 +893,67 @@ h6 {
   color: var(--muted);
 }
 
+.availability-panel {
+  margin-top: 32px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 22px;
+  background: var(--bg-panel);
+  box-shadow: var(--shadow-soft);
+}
+
+.availability-panel header {
+  /* display: flex; */
+  gap: 16px;
+  align-items: flex-start;
+}
+
+#contact > section > header {
+  display: flex;
+}
+
+.availability-panel__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--surface-tint);
+  display: grid;
+  place-items: center;
+  color: var(--accent);
+  flex: 0 0 auto;
+}
+
+.availability-panel__eyebrow {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.availability-panel h3 {
+  margin: 0 0 6px;
+}
+
+.availability-panel p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.availability-panel__body {
+  margin-top: 16px;
+}
+
+.availability-panel__error {
+  color: var(--muted);
+}
+
+.availability-panel__empty {
+  color: var(--muted);
+}
+
 .calendar-book {
-  margin-top: 14px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -867,19 +978,20 @@ h6 {
   height: 10px;
   border-radius: 50%;
   display: inline-flex;
+  border: 1px solid var(--border);
 }
 
 .calendar-book__dot--available {
-  background: #2dd4bf;
+  background: var(--accent);
 }
 
 .calendar-book__dot--booked {
-  background: #ff8b8b;
+  background: var(--muted);
 }
 
 .calendar-book__months {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); */
   gap: 16px;
 }
 
@@ -887,7 +999,7 @@ h6 {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 14px;
-  background: var(--surface-tint);
+  background: var(--bg-card);
 }
 
 .calendar-book__month h6 {
@@ -900,8 +1012,14 @@ h6 {
 .calendar-book__grid {
   display: grid;
   grid-template-columns: repeat(7, minmax(28px, 1fr));
-  /* gap: 6px; */
+  gap: 8px;
   width: 100%;
+}
+
+.calendar-book__weekdays {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--border);
 }
 
 .calendar-book__weekdays span {
@@ -912,14 +1030,14 @@ h6 {
 
 .calendar-book__day {
   border: 1px solid var(--border);
-  border-radius: 12px;
-  min-height: 54px;
-  background: var(--bg-card);
+  border-radius: var(--radius-sm);
+  min-height: 52px;
+  background: var(--surface-tint);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 6px;
+  padding: 8px;
   text-align: left;
   gap: 4px;
   color: var(--text);
@@ -935,14 +1053,19 @@ h6 {
 }
 
 .calendar-book__day--available {
-  border-color: rgba(45, 212, 191, 0.45);
-  background: rgba(45, 212, 191, 0.12);
+  border-color: var(--border-strong);
+  background: linear-gradient(180deg, var(--accent-soft), transparent);
 }
 
 .calendar-book__day--booked {
-  border-color: rgba(255, 139, 139, 0.45);
-  background: rgba(255, 139, 139, 0.12);
-  color: #ffb4b4;
+  opacity: 0.78;
+  background: repeating-linear-gradient(
+    135deg,
+    var(--surface-tint-strong) 0,
+    var(--surface-tint-strong) 10px,
+    transparent 10px,
+    transparent 20px
+  );
 }
 
 .calendar-book__day--today {
@@ -957,6 +1080,46 @@ h6 {
 .calendar-book__note {
   font-size: 0.7rem;
   color: var(--muted);
+  max-height: 2.6em;
+  overflow: hidden;
+}
+
+@media (max-width: 680px) {
+  .availability-panel header {
+    flex-direction: column;
+  }
+
+  .availability-panel {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 520px) {
+  .calendar-book__months {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-book__month {
+    padding: 12px;
+  }
+
+  .calendar-book__weekdays,
+  .calendar-book__grid {
+    gap: 6px;
+  }
+
+  .calendar-book__day {
+    min-height: 46px;
+    padding: 6px;
+  }
+
+  .calendar-book__date {
+    font-size: 0.85rem;
+  }
+
+  .calendar-book__note {
+    font-size: 0.65rem;
+  }
 }
 
 .contact__icon {
@@ -1517,22 +1680,45 @@ h6 {
     flex-direction: column;
   }
 
+  .sidebar-backdrop {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(180deg, var(--hero-overlay-start), var(--hero-overlay-end));
+    backdrop-filter: blur(6px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+    z-index: 14;
+    display: block;
+  }
+
+  .sidebar-backdrop--open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
   .sidebar {
     position: fixed;
-    width: 80%;
+    top: 0;
+    left: 0;
     height: 100vh;
-    left: -110%;
-    transition: transform 0.4s ease;
+    width: min(86vw, 360px);
+    max-width: 360px;
+    transform: translateX(-110%);
+    transition: transform 0.35s ease;
     z-index: 15;
+    box-shadow: var(--shadow-soft);
+    padding-top: 86px;
   }
 
   .sidebar--open {
-    transform: translateX(110%);
+    transform: translateX(0);
   }
 
   .nav-toggle {
     display: grid;
     place-items: center;
+    z-index: 16;
   }
 
   .app-main {
@@ -1553,6 +1739,13 @@ h6 {
   .admin-page__header {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sidebar,
+  .sidebar-backdrop {
+    transition: none;
   }
 }
 
